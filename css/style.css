@@ -1,0 +1,114 @@
+.navbar {
+    font-family: 'Bebas Neue', cursive;
+}
+
+#banner1 {
+    width: 100%;
+    height: 40%;
+    left: 0px;
+    right: 0px;
+}
+
+.prompt1 {
+    background-color: #f8f4f4;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 9%;
+    padding-right: 9%;
+    text-decoration: black;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    
+    
+}
+
+#container {
+   
+    position: relative;
+    z-index: 1;
+}
+
+/* .in {
+   
+    position: absolute;
+    height: 50%;
+    z-index: 0;
+} */
+
+#covtxt {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    z-index: 0;
+    transform: rotate(-90deg);
+}
+
+
+.covers {
+    font-family: 'Poppins', sans-serif;
+    font-weight: inherit;
+    padding-top: 3%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 2%;
+    background-image: image(PUBLIC/cover/5.png)
+    
+    
+}
+
+#cov {
+    width: 463px;
+    height: 601px;
+}
+
+#covup {
+    width: 463px;
+    height: 601px;
+    margin-top: 30%;
+    
+}
+
+#banner2 {
+    width: fit-content;
+    height: 40%;
+    left: 0px;
+    right: 0px;
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: inherit;
+    padding-top: 3%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+#smallcov {
+    padding-left: 10%;
+}
+
+body, h6, h5, h1 {
+    text-align: center;
+    
+}
+
+#news {
+    
+    width: 60%;
+    height: 70%;
+}
+
+#news2 {
+    width: 100%;
+    height: 100%;
+    ;
+}
+
+.footer {
+    background-color: #121212;
+    padding-top: 10%;
+    padding-bottom: 10%; 
+    padding-left: 5%;
+    color: #e5e5e5;
+    font-family: 'Poppins', sans-serif;
+}
