@@ -51,12 +51,7 @@ html,body
     z-index: 0;
 } */
 
-#covtxt {
-    font-family: 'Poppins', sans-serif;
-    position: absolute;
-    z-index: 0;
-    transform: rotate(-90deg);
-}
+
 
 
 .covers {
@@ -74,14 +69,18 @@ html,body
 #cov {
     width: 463px;
     height: 601px;
+    
 }
 
 #covup {
     width: 463px;
     height: 601px;
     margin-top: 30%;
+ 
     
 }
+
+
 
 #banner2 {
     width: fit-content;
