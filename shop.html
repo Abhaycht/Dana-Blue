@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dana Blue</title>
+    <link rel="stylesheet" href="css/shop.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- font bebas nueue -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/5e1135806b.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <section>
+
+        <!----Navbar-->
+        <nav class="navbar navbar-expand-sm  navbar-custom">
+
+
+            <a class="navbar-brand d-none d-sm-inline-block" href="./index.html"
+                style="color: white; font-size: 30px; font-family: 'Bebas Neue', cursive;">
+                DANA BLUE
+            </a>
+
+
+
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item">
+                        <a href="./shop.html" class="nav-link m-2 menu-item nav-active" style="color: white;">BOOKS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item" style="color: white;">EVENTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item" style="color: white;">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item" style="color: white;">NEWSLETTER</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section style="background-color: #f8f8f8;">
+
+        <!-- main shop link -->
+        <div class="container" style="padding-top: 4%; padding-bottom: 4%;">
+            <!-- heading  -->
+
+            <h1 style="font-weight: bold; font-size: 60px;">Books<br></h1>
+            <h6 style="font-weight: bold; ">Showing Books by Dana Blue</h4>
+                <div id="myBtnContainer">
+                    <button class="btn active" onclick="filterSelection('showall')"> Show all</button>
+                    <button class="btn" onclick="filterSelection('newest')"> Newest</button>
+                    <button class="btn" onclick="filterSelection('Oldest')"> Oldest</button>
+                    <button class="btn" onclick="filterSelection('popularity')">Popularity</button>
+                </div>
+
+                <!-- Grid -->
+                <div class="row container">
+                    <div class="column showall">
+                        <div class="content">
+                            <a href="./Book1.html" style="color:inherit; text-decoration: none;"><img
+                                    src="./PUBLIC/shopcover/1.png" style="width:100%">
+                                <h4>Un c’est Bien,<br>
+                                    Deux c’est Mieux</h4>
+                            </a>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column showall">
+                        <div class="content">
+                            <a href="./Book3.html" style="color:inherit; text-decoration: none;"><img
+                                    src="./PUBLIC/shopcover/2.png" style="width:100%">
+                                <h4>La Meute<br>
+                                    Ecarlate</h4>
+                            </a>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                    <span class="stars-inactive">
+                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column showall">
+                        <div class="content">
+                            <a href="./Book2.html" style="color:inherit; text-decoration: none;"><img
+                                    src="./PUBLIC/shopcover/3.png" style="width:100%">
+                                <h4>Les Incubes de <br>
+                                    Manhattan</h4>
+                            </a>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column showall">
+                        <div class="content">
+                            <a href="./Book4.html" style="color:inherit; text-decoration: none;"><img
+                                    src="./PUBLIC/shopcover/4.png" style="width:100%">
+                                <h4>Redemption<br>
+                                    Part One</h4>
+                            </a>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column showall">
+                        <div class="content">
+                            <img src="./PUBLIC/shopcover/5.png" style="width:100%">
+                            <h4>Coming <br>
+                                Soon</h4>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column showall">
+                        <div class="content">
+                            <img src="./PUBLIC/shopcover/6.png" style="width:100%">
+                            <h4>Coming <br>
+                                Soon</h4>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+
+                    <div class="column newest">
+                        <div class="content">
+                            <a href="./Book2.html" style="color:inherit; text-decoration: none;"><img
+                                    src="./PUBLIC/shopcover/3.png" style="width:100%">
+                                <h4>Les Incubes de <br>
+                                    Manhattan</h4>
+                            </a>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column newest">
+                        <div class="content">
+                            <a href="./Book1.html" style="color:inherit; text-decoration: none;"><img
+                                    src="./PUBLIC/shopcover/1.png" style="width:100%">
+                                <h4>Un c’est Bien,<br>
+                                    Deux c’est Mieux</h4>
+                            </a>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column newest">
+                        <div class="content">
+                            <a href="./Book3.html" style="color:inherit; text-decoration: none;"><img
+                                    src="./PUBLIC/shopcover/2.png" style="width:100%">
+                                <h4>La Meute <br> écarlate</h4>
+                            </a>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column newest">
+                        <div class="content">
+                            <a href="./Book4.html" style="color:inherit; text-decoration: none;"><img
+                                    src="./PUBLIC/shopcover/4.png" style="width:100%">
+                                <h4>Redemption<br>
+                                    Part One</h4>
+                            </a>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column newest">
+                        <div class="content">
+                            <img src="./PUBLIC/shopcover/5.png" style="width:100%">
+                            <h4>Coming <br>
+                                Soon</h4>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column newest">
+                        <div class="content">
+                            <img src="./PUBLIC/shopcover/6.png" style="width:100%">
+                            <h4>Coming <br>
+                                Soon</h4>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column Oldest">
+                        <div class="content">
+                            <a href="./Book4.html" style="color:inherit; text-decoration: none;"><img
+                                    src="./PUBLIC/shopcover/4.png" style="width:100%">
+                                <h4>Redemption<br> Part One</h4>
+                            </a>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column Oldest">
+                        <div class="content">
+                            <a href="./Book3.html" style="color:inherit; text-decoration: none;"><img
+                                    src="./PUBLIC/shopcover/2.png" style="width:100%">
+                                <h4>La Meute<br>
+                                    Ecarlate</h4>
+                            </a>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column Oldest">
+                        <div class="content">
+                            <a href="./Book1.html" style="color:inherit; text-decoration: none;"><img
+                                    src="./PUBLIC/shopcover/1.png" style="width:100%">
+                                <h4>Un c’est Bien,<br>
+                                    Deux c’est Mieux</h4>
+                            </a>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column Oldest">
+                        <div class="content">
+                            <a href="./Book2.html" style="color:inherit; text-decoration: none;"><img
+                                    src="./PUBLIC/shopcover/3.png" style="width:100%">
+                                <h4>Les Incubes de <br>
+                                    Manhattan</h4>
+                            </a>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column Oldest">
+                        <div class="content">
+                            <img src="./PUBLIC/shopcover/5.png" style="width:100%">
+                            <h4>Coming <br>
+                                Soon</h4>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column Oldest">
+                        <div class="content">
+                            <img src="./PUBLIC/shopcover/6.png" style="width:100%">
+                            <h4>Coming <br>
+                                Soon</h4>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column popularity">
+                        <div class="content">
+                            <a href="./Book1.html" style="color:inherit; text-decoration: none;"><img
+                                    src="./PUBLIC/shopcover/1.png" style="width:100%">
+                                <h4>Un c’est Bien,<br>
+                                    Deux c’est Mieux</h4>
+                            </a>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column popularity">
+                        <div class="content">
+                            <a href="./Book3.html" style="color:inherit; text-decoration: none;"><img
+                                    src="./PUBLIC/shopcover/2.png" style="width:100%">
+                                <h4>La Meute<br>
+                                    Ecarlate</h4>
+                            </a>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column popularity">
+                        <div class="content">
+                            <a href="./Book2.html" style="color:inherit; text-decoration: none;"><img
+                                    src="./PUBLIC/shopcover/3.png" style="width:100%">
+                                <h4>Les Incubes de <br>
+                                    Manhattan</h4>
+                            </a>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column popularity">
+                        <div class="content">
+                            <a href="./Book4.html" style="color:inherit; text-decoration: none;"><img
+                                    src="./PUBLIC/shopcover/4.png" style="width:100%">
+                                <h4>Redemption <br>Part One</h4>
+                            </a>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column popularity">
+                        <div class="content">
+                            <img src="./PUBLIC/shopcover/5.png" style="width:100%">
+                            <h4>Coming <br>
+                                Soon</h4>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="column popularity">
+                        <div class="content">
+                            <img src="./PUBLIC/shopcover/6.png" style="width:100%">
+                            <h4>Coming <br>
+                                Soon</h4>
+                            <span class="score" style="margin-left: 5%;">
+                                <div class="score-wrap">
+                                    <span class="stars-active" style="width:100%">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <h7 style="color: black;">(100)</h7>
+                                    </span>
+                                </div>
+                            </span>
+
+                            <p><i>$20</i> <i class="fas fa-shopping-cart fa-sm" style="margin-left: 60%;"></i></p>
+                        </div>
+                    </div>
+
+                    <!-- END GRID -->
+                </div>
+                <script>
+                    filterSelection("showall") // Execute the function and show all columns
+                    function filterSelection(c) {
+                        var x, i;
+                        x = document.getElementsByClassName("column");
+                        if (c == "all") c = "";
+                        // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+                        for (i = 0; i < x.length; i++) {
+                            w3RemoveClass(x[i], "show");
+                            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+                        }
+                    }
+
+                    // Show filtered elements
+                    function w3AddClass(element, name) {
+                        var i, arr1, arr2;
+                        arr1 = element.className.split(" ");
+                        arr2 = name.split(" ");
+                        for (i = 0; i < arr2.length; i++) {
+                            if (arr1.indexOf(arr2[i]) == -1) {
+                                element.className += " " + arr2[i];
+                            }
+                        }
+                    }
+
+                    // Hide elements that are not selected
+                    function w3RemoveClass(element, name) {
+                        var i, arr1, arr2;
+                        arr1 = element.className.split(" ");
+                        arr2 = name.split(" ");
+                        for (i = 0; i < arr2.length; i++) {
+                            while (arr1.indexOf(arr2[i]) > -1) {
+                                arr1.splice(arr1.indexOf(arr2[i]), 1);
+                            }
+                        }
+                        element.className = arr1.join(" ");
+                    }
+
+                    // Add active class to the current button (highlight it)
+                    var btnContainer = document.getElementById("myBtnContainer");
+                    var btns = btnContainer.getElementsByClassName("btn");
+                    for (var i = 0; i < btns.length; i++) {
+                        btns[i].addEventListener("click", function () {
+                            var current = document.getElementsByClassName("active");
+                            current[0].className = current[0].className.replace(" active", "");
+                            this.className += " active";
+                        });
+                    }
+                </script>
+
+
+
+        </div>
+    </section>
+
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <div class=" col-xs-7 col-sm-5 col-lg-2">
+                    <h4 style="font-family: 'Bebas Neue', cursive;">DANA BLUE</h4>
+                </div>
+                <div class=" col-xs-7 col-sm-5 col-lg-2">
+                    <h6 style="text-align: left; font-size: 13px;">We expore the deep Ocean, We
+                        are some mad adventurer and
+                        we like it deep</h6>
+                </div>
+                <div class=" col-xs-7 col-sm-5 col-lg-2" style="padding-left: 6%;">
+                    
+                        <h5 style="font-size: 14px; text-align: left; font-weight: bold;">Home</h5>
+                    </a>
+                    <a href="./index.html" style="color:inherit; text-decoration: none;">
+                        <h6 style="font-size: 12px; text-align: left;">About me</h6>
+                    </a>
+                    <br><br>
+                    
+                        <h5 style="font-size: 14px; text-align: left; font-weight: bold;">Newsletter</h5>
+                    </a>
+                    <a href="./news.html" style="color:inherit; text-decoration: none;">
+                        <h6 style="font-size: 12px; text-align: left;">News & ress</h6></a>
+                    
+                </div>
+                <div class=" col-xs-7 col-sm-5 col-lg-1">
+                    <h5 style="font-size: 14px; text-align: left; font-weight: bold;">Shop</h5>
+                    <a href="./shop.html" style="color:inherit; text-decoration: none;">
+                        <h6 style="font-size: 12px; text-align: left;">Books</h6>
+                    </a>
+                    <a href="#" style="color:inherit; text-decoration: none;">
+                        <h6 style="font-size: 12px; text-align: left;">Amazon</h6>
+                    </a>
+                </div>
+                <div class=" col-xs-7 col-sm-5 col-lg-3" style="padding-left: 5.5%;">
+                    <h4 style="font-size: 13px; font-weight: bold; letter-spacing: 2px;">Dive Deeper With Me</h4>
+                </div>
+                <div class=" col-xs-7 col-sm-5 col-lg-2">
+                    <a href="#" style="color:inherit; text-decoration: none;"><i
+                            class="fab fa-facebook-square fa-2x"></i></a>
+                    <a href="#" style="color:inherit; text-decoration: none;"><i class="fab fa-instagram fa-2x"
+                            style="margin-left: 7%; margin-right: 7%;"></i></a>
+                    <a href="#" style="color:inherit; text-decoration: none;"><i class="fab fa-twitter fa-2x"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
