@@ -49,3 +49,7 @@ html,body
     width: 50%;
     padding: 20px;
 }
+
+.txt{
+    font-weight: 600; font-size: 27px;
+}
