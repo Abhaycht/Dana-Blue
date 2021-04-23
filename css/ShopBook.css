@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+
+
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-custom {
+  background-color: #121212;
+
+}
+
+.Navtxt {
+  color: #e5e5e5;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+p {
+  color: #555;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.row {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-2 {
+  flex-basis: 50%;
+  min-width: 500px;
+}
+
+.col-2 img {
+  max-width: 80%;
+  padding: 50px 0;
+}
+
+.col-2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+
+.btn1 {
+  display: inline-block;
+  background: #82bce2;
+  color: #ffffff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+
+.btn1:hover {
+  background: #2c546c;
+  color: white;
+}
+
+.btn2 {
+  display: inline-block;
+  background: #2ea5c7;
+  color: #ffffff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+
+.btn2:hover {
+  background: #1a7088;
+  color: white;
+}
+
+.btn3 {
+  display: inline-block;
+  background: #121212;
+  color: #ffffff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+
+.btn3:hover {
+  background: #142c4c;
+  color: white;
+}
+
+.btn4 {
+  display: inline-block;
+  background: #d0cac1;
+  color: #ffffff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+
+.btn4:hover {
+  background: #e4dcdb;
+  color: white;
+}
+
+
+.col-3 {
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+
+.col-3 img {
+  width: 100%;
+}
+
+.small-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.col-4 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+
+.col-4 img {
+  width: 100%;
+}
+
+
+
+.col-4 p {
+  font-size: 14px;
+}
+
+.rating .fas {
+  color: #82bce2;
+}
+
+.rating .far {
+  color: #82bce2;
+}
+
+.col-4:hover {
+  transform: translateY(-5px);
+}
+
+.footer {
+  background-color: #121212;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  color: #e5e5e5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media query for menu */
+
+@media only screen and (max-width: 800px) {
+  nav ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: #333;
+    width: 100%;
+    overflow: hidden;
+    transition: max-height 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  nav ul li a {
+    color: #fff;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+
+
+/* single product details */
+
+.single-product {
+  margin-top: 1px;
+}
+
+.single-product .col-2 img {
+  padding: 0;
+}
+
+.single-product .col-2 {
+  padding: 10px;
+}
+
+.single-product h4 {
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.single-product select {
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.single-product input {
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  border: 1px solid #82bce2;
+}
+
+input:focus {
+  outline: none;
+}
+
+.single-product .fas {
+  color: #82bce2;
+  margin-left: 10px;
+}
+
+.small-img-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+.heading {
+  font-family: 'Poppins', sans-serif;
+
+  padding-top: 3%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+#banner1 {
+  width: fit-content;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  margin-top: 5%;
+  position: absolute;
+}
+
+#container {
+  position: relative;
+}
+
+#revBox {
+  position: relative;
+  height: 280px;
+  width: 480px;
+
+}
+
+.column {
+  width: 33.33%;
+  padding: 20px;
+}
+
+
+
+
+#box {
+  background-color: white;
+  border-radius: 30px;
+  position: relative;
+  height: 240px;
+  width: 440px;
+  box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+
+
+.shadow {
+  position: relative;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.shadow:before,
+.shadow:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  -moz-border-radius: 100px / 10px;
+  border-radius: 100px / 10px;
+}
+
+.shadow:after {
+  right: 10px;
+  left: auto;
+  -webkit-transform: skew(8deg) rotate(3deg);
+  -moz-transform: skew(8deg) rotate(3deg);
+  -ms-transform: skew(8deg) rotate(3deg);
+  -o-transform: skew(8deg) rotate(3deg);
+  transform: skew(8deg) rotate(3deg);
+}
+
+
+
+.res {
+  max-width: 100%;
+  height: auto;
+}
+
+#Av {
+
+  border-radius: 60px;
+  position: relative;
+  z-index: 4;
+  height: 90px;
+  width: 90px;
+  left: 6%;
+  top: 8%;
+}
+
+#smallcov {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
