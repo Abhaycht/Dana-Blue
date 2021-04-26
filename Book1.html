@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <!-- icons -->
     <script src="https://kit.fontawesome.com/5e1135806b.js" crossorigin="anonymous"></script>
+<!-- for animation  -->
+<link rel="stylesheet" href="./css/dist/aos.css">
 
 
 </head>
@@ -21,11 +23,11 @@
     <section>
 
         <!----Navbar-->
-        <nav class="navbar navbar-expand-sm  navbar-custom">
+        <nav class="navbar navbar-expand-sm  navbar-custom" data-aos="fade-down" data-aos-anchor-placement="top-center" data-aos="fade-down">
 
 
             <a class="navbar-brand d-none d-sm-inline-block" href="./index.html"
-                style="color: white; font-size: 30px; font-family: 'Bebas Neue', cursive;">
+                style="color: white; font-size: 30px; font-family: 'Bebas Neue', cursive;"  data-aos="fade-down-right">
                 DANA BLUE
             </a>
 
@@ -34,16 +36,16 @@
             <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
                 <ul class="navbar-nav ml-auto flex-nowrap">
                     <li class="nav-item">
-                        <a href="./shop.html" class="nav-link m-2 menu-item nav-active" style="color: white;">BOOKS</a>
+                        <a href="./shop.html" class="nav-link m-2 menu-item nav-active" style="color: white;" data-aos="fade-down-left" >BOOKS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link m-2 menu-item" style="color: white;">EVENTS</a>
+                        <a href="#" class="nav-link m-2 menu-item" style="color: white;" data-aos="fade-down-left" >EVENTS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="./contact.html" class="nav-link m-2 menu-item" style="color: white;">CONTACT</a>
+                        <a href="./contact.html" class="nav-link m-2 menu-item" style="color: white;" data-aos="fade-down-left" >CONTACT</a>
                     </li>
                     <li class="nav-item">
-                        <a href="./news.html" class="nav-link m-2 menu-item" style="color: white;">NEWSLETTER</a>
+                        <a href="./news.html" class="nav-link m-2 menu-item" style="color: white;" data-aos="fade-down-left" >NEWSLETTER</a>
                     </li>
                 </ul>
             </div>
@@ -55,24 +57,22 @@
         <div class="small-container single-product">
             <div class="row">
                 <div class="col-2">
-                    <img src="./PUBLIC/cover/1.png" alt="" width="100%" id="ProductImg" />
+                    <img src="./PUBLIC/cover/1.png" alt="" width="100%" id="ProductImg" data-aos="zoom-out" />
 
                     <div class="small-img-row">
                         <div class="small-img-col">
-                            <img src="./PUBLIC/cover/1.png" alt="" width="100%" class="small-img" />
+                            <img src="./PUBLIC/cover/1.png" alt="" width="100%" class="small-img" data-aos="fade-down-right" data-aos-anchor-placement="top-bottom" />
                         </div>
                         <div class="small-img-col">
-                            <img src="./PUBLIC/Stack/1.png" alt="" width="100%" class="small-img" />
+                            <img src="./PUBLIC/Stack/1.png" alt="" width="100%"  class="small-img" data-aos="fade-down-right" data-aos-anchor-placement="top-bottom" />
                         </div>
                         <div class="small-img-col">
-                            <img src="./PUBLIC/cover/1.png" alt="" width="100%" class="small-img" />
+                            <img src="./PUBLIC/Stack/1s.png" alt="" width="100%" class="small-img" data-aos="fade-down-right" data-aos-anchor-placement="top-bottom" />
                         </div>
-                        <div class="small-img-col">
-                            <img src="./PUBLIC/Stack/1.png" alt="" width="100%" class="small-img" />
-                        </div>
+                      
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-2" data-aos="fade-down-left">
                     <p>DANA BLUE > BOOKS <b>> Un c’est Bien, Deux c’est Mieux</b> </p>
                     <h1><b>Un c’est Bien, Deux c’est Mieux</b></h1>
                     <p>Andara, 3 mars 2021</p>
@@ -112,7 +112,7 @@
     <!-- other book link -->
 
     <section style="background-color: #f8f8f8; padding-top: 3%;">
-        <div class="heading">
+        <div class="heading" data-aos="zoom-out">
             <h1 style="font-weight: bold; text-align: center;">Reviews</h1>
             <hr style="margin-left: 48%; margin-right: 48%; border-top: 2px solid;">
 
@@ -120,24 +120,64 @@
         <div id="container">
             <img src="PUBLIC/Banners/Banner_2.png" id="banner1">
             <div class="row" style="padding-left: 3%; ">
-                <div class="column col-lg-4 col-md-2 col-xs-1" >
+                <div class="column col-lg-4 col-md-2 col-xs-1" data-aos="zoom-out" >
                     <div id="box" class="shadow">
-                        <div id="Av">
-                            <img src="./PUBLIC/review/Ellipse 1.png" alt="">
+                        
+                        <div class="row" >
+                            <div id="Av" class="column" style="margin-right: 10%;">
+                                <img src="./PUBLIC/review/Ellipse 1.png" alt="">
+                            </div>
+                            <div class="column" style="width: 320px; padding-top: 50px;" >
+                                <h6 style="text-align: left;"><b>Sheldonica</b></h6>
+                            </div>
                         </div>
+                        
+                        <div style=" height: 100px; width: 350px; margin-top: 30px; margin-left: 50px; margin-right: 10px;">
+                            <h6 style="font-size: 15px;"><b>Aaah 😍 qu’est-ce que j’aime ce genre d’héroïne avec 
+                                un vrai caractère, qui n’est pas nunuche (c’est pour ça 
+                                que je lis m’ois de romance MF, à cause des nunuches...) 
+                                Et que dire des deux mecs ?? Que je veux les mêmes...</b></h6>
+                        </div>
+                        
                     </div>
                 </div>
-                <div class="column col-lg-4 col-md-2 col-xs-1" >
+                <div class="column col-lg-4 col-md-2 col-xs-1" data-aos="zoom-out" >
                     <div id="box" class="shadow">
-                        <div id="Av">
-                            <img src="./PUBLIC/review/Ellipse 1.png" alt="">
+                        
+                        <div class="row" >
+                            <div id="Av" class="column" style="margin-right: 10%;">
+                                <img src="./PUBLIC/review/Ellipse 1.png" alt="">
+                            </div>
+                            <div class="column" style="width: 320px; padding-top: 50px;" >
+                                <h6 style="text-align: left;"><b>Sheldonica</b></h6>
+                            </div>
                         </div>
+                        
+                        <div style=" height: 100px; width: 350px; margin-top: 30px; margin-left: 50px; margin-right: 10px;">
+                            <h6 style="font-size: 15px;"><b>Aaah 😍 qu’est-ce que j’aime ce genre d’héroïne avec 
+                                un vrai caractère, qui n’est pas nunuche (c’est pour ça 
+                                que je lis m’ois de romance MF, à cause des nunuches...) 
+                                Et que dire des deux mecs ?? Que je veux les mêmes...</b></h6>
+                        </div>
+                        
                     </div>
                 </div>
-                <div class="column col-lg-4 col-md-2 col-xs-1" >
+                <div class="column col-lg-4 col-md-2 col-xs-1" data-aos="zoom-out" >
                     <div id="box" class="shadow">
-                        <div id="Av">
-                            <img src="./PUBLIC/review/Ellipse 1.png" alt="">
+                        <div class="row" >
+                            <div id="Av" class="column" style="margin-right: 10%;">
+                                <img src="./PUBLIC/review/Ellipse 1.png" alt="">
+                            </div>
+                            <div class="column" style="width: 320px; padding-top: 50px;" >
+                                <h6 style="text-align: left;"><b>Sheldonica</b></h6>
+                            </div>
+                        </div>
+                        
+                        <div style=" height: 100px; width: 350px; margin-top: 30px; margin-left: 50px; margin-right: 10px;">
+                            <h6 style="font-size: 15px;"><b>Aaah 😍 qu’est-ce que j’aime ce genre d’héroïne avec 
+                                un vrai caractère, qui n’est pas nunuche (c’est pour ça 
+                                que je lis m’ois de romance MF, à cause des nunuches...) 
+                                Et que dire des deux mecs ?? Que je veux les mêmes...</b></h6>
                         </div>
                     </div>
                 </div>
@@ -145,24 +185,63 @@
 
             </div>
             <div class="row" style="padding-left: 3%; padding-top: 2%;">
-                <div class="column col-lg-4 col-md-2 col-xs-1" >
+                <div class="column col-lg-4 col-md-2 col-xs-1" data-aos="zoom-out" >
                     <div id="box" class="shadow">
-                        <div id="Av">
-                            <img src="./PUBLIC/review/Ellipse 1.png" alt="">
+                        
+                        <div class="row" >
+                            <div id="Av" class="column" style="margin-right: 10%;">
+                                <img src="./PUBLIC/review/Ellipse 1.png" alt="">
+                            </div>
+                            <div class="column" style="width: 320px; padding-top: 50px;" >
+                                <h6 style="text-align: left;"><b>Sheldonica</b></h6>
+                            </div>
+                        </div>
+                        
+                        <div style=" height: 100px; width: 350px; margin-top: 30px; margin-left: 50px; margin-right: 10px;">
+                            <h6 style="font-size: 15px;"><b>Aaah 😍 qu’est-ce que j’aime ce genre d’héroïne avec 
+                                un vrai caractère, qui n’est pas nunuche (c’est pour ça 
+                                que je lis m’ois de romance MF, à cause des nunuches...) 
+                                Et que dire des deux mecs ?? Que je veux les mêmes...</b></h6>
                         </div>
                     </div>
                 </div>
-                <div class="column col-lg-4 col-md-2 col-xs-1" >
+                <div class="column col-lg-4 col-md-2 col-xs-1" data-aos="zoom-out" >
                     <div id="box" class="shadow">
-                        <div id="Av">
-                            <img src="./PUBLIC/review/Ellipse 1.png" alt="">
+                        
+                        <div class="row" >
+                            <div id="Av" class="column" style="margin-right: 10%;">
+                                <img src="./PUBLIC/review/Ellipse 1.png" alt="">
+                            </div>
+                            <div class="column" style="width: 320px; padding-top: 50px;" >
+                                <h6 style="text-align: left;"><b>Sheldonica</b></h6>
+                            </div>
+                        </div>
+                        
+                        <div style=" height: 100px; width: 350px; margin-top: 30px; margin-left: 50px; margin-right: 10px;">
+                            <h6 style="font-size: 15px;"><b>Aaah 😍 qu’est-ce que j’aime ce genre d’héroïne avec 
+                                un vrai caractère, qui n’est pas nunuche (c’est pour ça 
+                                que je lis m’ois de romance MF, à cause des nunuches...) 
+                                Et que dire des deux mecs ?? Que je veux les mêmes...</b></h6>
                         </div>
                     </div>
                 </div>
-                <div class="column col-lg-4 col-md-2 col-xs-1" >
+                <div class="column col-lg-4 col-md-2 col-xs-1" data-aos="zoom-out" >
                     <div id="box" class="shadow">
-                        <div id="Av">
-                            <img src="./PUBLIC/review/Ellipse 1.png" alt="">
+                        
+                        <div class="row" >
+                            <div id="Av" class="column" style="margin-right: 10%;">
+                                <img src="./PUBLIC/review/Ellipse 1.png" alt="">
+                            </div>
+                            <div class="column" style="width: 320px; padding-top: 50px;" >
+                                <h6 style="text-align: left;"><b>Sheldonica</b></h6>
+                            </div>
+                        </div>
+                        
+                        <div style=" height: 100px; width: 350px; margin-top: 30px; margin-left: 50px; margin-right: 10px;">
+                            <h6 style="font-size: 15px;"><b>Aaah 😍 qu’est-ce que j’aime ce genre d’héroïne avec 
+                                un vrai caractère, qui n’est pas nunuche (c’est pour ça 
+                                que je lis m’ois de romance MF, à cause des nunuches...) 
+                                Et que dire des deux mecs ?? Que je veux les mêmes...</b></h6>
                         </div>
                     </div>
                 </div>
@@ -178,26 +257,26 @@
     </section>
     <section style="padding-bottom: 5%; margin-top: 6%;">
         <div class="heading">
-            <h5 style="font-weight: bold; text-align: center;">Shop Links</h5>
-            <h1 style="font-weight: bold; text-align: center;">
+            <h5 style="font-weight: bold; text-align: center;" data-aos="fade-up">Shop Links</h5>
+            <h1 style="font-weight: bold; text-align: center;" data-aos="fade-up">
                 Other Reads
                 <hr style="margin-left: 48%; margin-right: 48%; border-top: 2px solid;">
             </h1>
             <div>
                 <div class="row">
-                    <div class=" col-xs-7 col-sm-6 col-lg-4"><a href="./Book2.html"
+                    <div class=" col-xs-7 col-sm-6 col-lg-4" data-aos="fade-up" ><a href="./Book2.html"
                             style="color:inherit; text-decoration: none;"><img src="PUBLIC/small covers/2.png"
                                 id="smallcov" style="margin-left: 55%;"><br>
                             <h6 style="font-weight: bold; text-align: center; margin-left: 60%;">Les Incubes de
                                 <br>Manhattan <br><br> $20
                             </h6>
                         </a></div>
-                    <div class=" col-xs-7 col-sm-6 col-lg-4"><a href="./Book3.html"
+                    <div class=" col-xs-7 col-sm-6 col-lg-4" data-aos="fade-up" ><a href="./Book3.html"
                             style="color:inherit; text-decoration: none;"><img src="PUBLIC/small covers/3.png"
                                 id="smallcov"><br>
                             <h6 style="font-weight: bold; text-align: center;">La Meute <br> Ecarlate <br><br> $20</h6>
                         </a></div>
-                    <div class=" col-xs-7 col-sm-6 col-lg-4"><a href="./Book4.html"
+                    <div class=" col-xs-7 col-sm-6 col-lg-4" data-aos="fade-up" ><a href="./Book4.html"
                             style="color:inherit; text-decoration: none;"><img src="PUBLIC/small covers/4.png"
                                 id="smallcov" style="margin-right: 55%;"><br>
                             <h6 style="font-weight: bold; text-align: center; margin-right: 50%;">Redemption <br> Part
@@ -213,11 +292,11 @@
 
 
     <!-- footer -->
-    <footer>
-        <div class="footer">
-            <div class="row">
-                <div class=" col-xs-7 col-sm-5 col-lg-2">
-                    <h4 style="font-family: 'Bebas Neue', cursive;">DANA BLUE</h4>
+    <footer > 
+        <div class="footer" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="400">
+            <div class="row"  >
+                <div class=" col-xs-7 col-sm-5 col-lg-2" >
+                    <h4 style="font-family: 'Bebas Neue', cursive;" >DANA BLUE</h4>
                 </div>
                 <div class=" col-xs-7 col-sm-5 col-lg-2">
                     <h6 style="text-align: left; font-size: 13px;">We expore the deep Ocean, We
@@ -228,7 +307,7 @@
                     
                         <h5 style="font-size: 14px; text-align: left; font-weight: bold;">Home</h5>
                     </a>
-                    <a href="./contact.html" style="color:inherit; text-decoration: none;">
+                    <a href="./index.html" style="color:inherit; text-decoration: none;">
                         <h6 style="font-size: 12px; text-align: left;">About me</h6>
                     </a>
                     <br><br>
@@ -251,12 +330,11 @@
                 <div class=" col-xs-7 col-sm-5 col-lg-3" style="padding-left: 5.5%;">
                     <h4 style="font-size: 13px; font-weight: bold; letter-spacing: 2px;">Dive Deeper With Me</h4>
                 </div>
-                <div class=" col-xs-7 col-sm-2 col-lg-2">
-                    <a href="#" style="color:inherit; text-decoration: none;">
-                        <i class="fab fa-facebook-square fa-2x"></i></a>
-                    <a href="#" style="color:inherit; text-decoration: none;">
-                        <i class="fab fa-instagram fa-2x" style="margin-left: 7%; margin-right: 7%;"></i>
-                    </a>
+                <div class=" col-xs-7 col-sm-5 col-lg-2">
+                    <a href="#" style="color:inherit; text-decoration: none;"><i
+                            class="fab fa-facebook-square fa-2x"></i></a>
+                    <a href="#" style="color:inherit; text-decoration: none;"><i class="fab fa-instagram fa-2x"
+                            style="margin-left: 7%; margin-right: 7%;"></i></a>
                     <a href="#" style="color:inherit; text-decoration: none;"><i class="fab fa-twitter fa-2x"></i></a>
                 </div>
 
@@ -264,6 +342,14 @@
         </div>
     </footer>
 
+     <!-- for animation -->
+     <script src="./css/dist/aos.js"></script>
+     <script>
+       AOS.init({
+         duration: 1000
+         
+       });
+     </script>
 
 
 
