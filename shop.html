@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <!-- icons -->
     <script src="https://kit.fontawesome.com/5e1135806b.js" crossorigin="anonymous"></script>
+    <!-- for animation  -->
+    <link rel="stylesheet" href="./css/aos-master/dist/aos.css">
 
 
 </head>
@@ -20,11 +22,11 @@
     <section>
 
         <!----Navbar-->
-        <nav class="navbar navbar-expand-sm  navbar-custom">
+        <nav class="navbar navbar-expand-sm  navbar-custom" data-aos="fade-down" data-aos-anchor-placement="top-center" data-aos="fade-down">
 
 
             <a class="navbar-brand d-none d-sm-inline-block" href="./index.html"
-                style="color: white; font-size: 30px; font-family: 'Bebas Neue', cursive;">
+                style="color: white; font-size: 30px; font-family: 'Bebas Neue', cursive;"  data-aos="fade-down-right">
                 DANA BLUE
             </a>
 
@@ -33,16 +35,16 @@
             <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
                 <ul class="navbar-nav ml-auto flex-nowrap">
                     <li class="nav-item">
-                        <a href="./shop.html" class="nav-link m-2 menu-item nav-active" style="color: white;">BOOKS</a>
+                        <a href="./shop.html" class="nav-link m-2 menu-item nav-active" style="color: white;" data-aos="fade-down-left" >BOOKS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link m-2 menu-item" style="color: white;">EVENTS</a>
+                        <a href="#" class="nav-link m-2 menu-item" style="color: white;" data-aos="fade-down-left" >EVENTS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="./contact.html" class="nav-link m-2 menu-item" style="color: white;">CONTACT</a>
+                        <a href="./contact.html" class="nav-link m-2 menu-item" style="color: white;" data-aos="fade-down-left" >CONTACT</a>
                     </li>
                     <li class="nav-item">
-                        <a href="./news.html" class="nav-link m-2 menu-item" style="color: white;">NEWSLETTER</a>
+                        <a href="./news.html" class="nav-link m-2 menu-item" style="color: white;" data-aos="fade-down-left" >NEWSLETTER</a>
                     </li>
                 </ul>
             </div>
@@ -54,9 +56,9 @@
         <div class="container" style="padding-top: 4%; padding-bottom: 4%;">
             <!-- heading  -->
 
-            <h1 style="font-weight: bold; font-size: 60px;">Books<br></h1>
-            <h6 style="font-weight: bold; ">Showing Books by Dana Blue</h4>
-                <div id="myBtnContainer">
+            <h1 style="font-weight: bold; font-size: 60px;" data-aos="fade-down">Books<br></h1>
+            <h6 style="font-weight: bold; " data-aos="fade-down">Showing Books by Dana Blue</h4>
+                <div id="myBtnContainer" data-aos="fade-left">
                     <button class="btn active" onclick="filterSelection('showall')"> Show all</button>
                     <button class="btn" onclick="filterSelection('newest')"> Newest</button>
                     <button class="btn" onclick="filterSelection('Oldest')"> Oldest</button>
@@ -66,7 +68,7 @@
                 <!-- Grid -->
                 <div class="row container">
                     <div class="column showall">
-                        <div class="content">
+                        <div class="content " data-aos="flip-left"  data-aos-anchor-placement="top-bottom" >
                             <a href="./Book1.html" style="color:inherit; text-decoration: none;"><img
                                     src="./PUBLIC/shopcover/1.png" style="width:100%">
                                 <h4>Un c’est Bien,<br>
@@ -89,7 +91,7 @@
                         </div>
                     </div>
                     <div class="column showall">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <a href="./Book3.html" style="color:inherit; text-decoration: none;"><img
                                     src="./PUBLIC/shopcover/2.png" style="width:100%">
                                 <h4>La Meute<br>
@@ -105,13 +107,7 @@
                                         <i class="fa fa-star" aria-hidden="true"></i>
                                         <h7 style="color: black;">(100)</h7>
                                     </span>
-                                    <span class="stars-inactive">
-                                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                                    </span>
+                            
                                 </div>
                             </span>
 
@@ -119,7 +115,7 @@
                         </div>
                     </div>
                     <div class="column showall">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <a href="./Book2.html" style="color:inherit; text-decoration: none;"><img
                                     src="./PUBLIC/shopcover/3.png" style="width:100%">
                                 <h4>Les Incubes de <br>
@@ -143,7 +139,7 @@
                         </div>
                     </div>
                     <div class="column showall">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <a href="./Book4.html" style="color:inherit; text-decoration: none;"><img
                                     src="./PUBLIC/shopcover/4.png" style="width:100%">
                                 <h4>Redemption<br>
@@ -166,7 +162,7 @@
                         </div>
                     </div>
                     <div class="column showall">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <img src="./PUBLIC/shopcover/5.png" style="width:100%">
                             <h4>Coming <br>
                                 Soon</h4>
@@ -187,7 +183,7 @@
                         </div>
                     </div>
                     <div class="column showall">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <img src="./PUBLIC/shopcover/6.png" style="width:100%">
                             <h4>Coming <br>
                                 Soon</h4>
@@ -209,7 +205,7 @@
                     </div>
 
                     <div class="column newest">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <a href="./Book2.html" style="color:inherit; text-decoration: none;"><img
                                     src="./PUBLIC/shopcover/3.png" style="width:100%">
                                 <h4>Les Incubes de <br>
@@ -232,7 +228,7 @@
                         </div>
                     </div>
                     <div class="column newest">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <a href="./Book1.html" style="color:inherit; text-decoration: none;"><img
                                     src="./PUBLIC/shopcover/1.png" style="width:100%">
                                 <h4>Un c’est Bien,<br>
@@ -255,7 +251,7 @@
                         </div>
                     </div>
                     <div class="column newest">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <a href="./Book3.html" style="color:inherit; text-decoration: none;"><img
                                     src="./PUBLIC/shopcover/2.png" style="width:100%">
                                 <h4>La Meute <br> écarlate</h4>
@@ -277,7 +273,7 @@
                         </div>
                     </div>
                     <div class="column newest">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <a href="./Book4.html" style="color:inherit; text-decoration: none;"><img
                                     src="./PUBLIC/shopcover/4.png" style="width:100%">
                                 <h4>Redemption<br>
@@ -300,7 +296,7 @@
                         </div>
                     </div>
                     <div class="column newest">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <img src="./PUBLIC/shopcover/5.png" style="width:100%">
                             <h4>Coming <br>
                                 Soon</h4>
@@ -321,7 +317,7 @@
                         </div>
                     </div>
                     <div class="column newest">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <img src="./PUBLIC/shopcover/6.png" style="width:100%">
                             <h4>Coming <br>
                                 Soon</h4>
@@ -342,7 +338,7 @@
                         </div>
                     </div>
                     <div class="column Oldest">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <a href="./Book4.html" style="color:inherit; text-decoration: none;"><img
                                     src="./PUBLIC/shopcover/4.png" style="width:100%">
                                 <h4>Redemption<br> Part One</h4>
@@ -364,7 +360,7 @@
                         </div>
                     </div>
                     <div class="column Oldest">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <a href="./Book3.html" style="color:inherit; text-decoration: none;"><img
                                     src="./PUBLIC/shopcover/2.png" style="width:100%">
                                 <h4>La Meute<br>
@@ -387,7 +383,7 @@
                         </div>
                     </div>
                     <div class="column Oldest">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <a href="./Book1.html" style="color:inherit; text-decoration: none;"><img
                                     src="./PUBLIC/shopcover/1.png" style="width:100%">
                                 <h4>Un c’est Bien,<br>
@@ -410,7 +406,7 @@
                         </div>
                     </div>
                     <div class="column Oldest">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <a href="./Book2.html" style="color:inherit; text-decoration: none;"><img
                                     src="./PUBLIC/shopcover/3.png" style="width:100%">
                                 <h4>Les Incubes de <br>
@@ -433,7 +429,7 @@
                         </div>
                     </div>
                     <div class="column Oldest">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <img src="./PUBLIC/shopcover/5.png" style="width:100%">
                             <h4>Coming <br>
                                 Soon</h4>
@@ -454,7 +450,7 @@
                         </div>
                     </div>
                     <div class="column Oldest">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <img src="./PUBLIC/shopcover/6.png" style="width:100%">
                             <h4>Coming <br>
                                 Soon</h4>
@@ -475,7 +471,7 @@
                         </div>
                     </div>
                     <div class="column popularity">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <a href="./Book1.html" style="color:inherit; text-decoration: none;"><img
                                     src="./PUBLIC/shopcover/1.png" style="width:100%">
                                 <h4>Un c’est Bien,<br>
@@ -498,7 +494,7 @@
                         </div>
                     </div>
                     <div class="column popularity">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <a href="./Book3.html" style="color:inherit; text-decoration: none;"><img
                                     src="./PUBLIC/shopcover/2.png" style="width:100%">
                                 <h4>La Meute<br>
@@ -521,7 +517,7 @@
                         </div>
                     </div>
                     <div class="column popularity">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <a href="./Book2.html" style="color:inherit; text-decoration: none;"><img
                                     src="./PUBLIC/shopcover/3.png" style="width:100%">
                                 <h4>Les Incubes de <br>
@@ -544,7 +540,7 @@
                         </div>
                     </div>
                     <div class="column popularity">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <a href="./Book4.html" style="color:inherit; text-decoration: none;"><img
                                     src="./PUBLIC/shopcover/4.png" style="width:100%">
                                 <h4>Redemption <br>Part One</h4>
@@ -566,7 +562,7 @@
                         </div>
                     </div>
                     <div class="column popularity">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <img src="./PUBLIC/shopcover/5.png" style="width:100%">
                             <h4>Coming <br>
                                 Soon</h4>
@@ -587,7 +583,7 @@
                         </div>
                     </div>
                     <div class="column popularity">
-                        <div class="content">
+                        <div class="content" data-aos="flip-left">
                             <img src="./PUBLIC/shopcover/6.png" style="width:100%">
                             <h4>Coming <br>
                                 Soon</h4>
@@ -668,11 +664,11 @@
 
 
     <!-- footer -->
-    <footer>
-        <div class="footer">
-            <div class="row">
-                <div class=" col-xs-7 col-sm-5 col-lg-2">
-                    <h4 style="font-family: 'Bebas Neue', cursive;">DANA BLUE</h4>
+    <footer style="background-color: #f8f8f8;"> 
+        <div class="footer" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="400">
+            <div class="row"  >
+                <div class=" col-xs-7 col-sm-5 col-lg-2" >
+                    <h4 style="font-family: 'Bebas Neue', cursive;" >DANA BLUE</h4>
                 </div>
                 <div class=" col-xs-7 col-sm-5 col-lg-2">
                     <h6 style="text-align: left; font-size: 13px;">We expore the deep Ocean, We
@@ -718,7 +714,17 @@
         </div>
     </footer>
 
-
+     <!-- for animation -->
+     <script src="./css/aos-master/dist/aos.js"></script>
+     <script>
+       AOS.init({
+         duration: 1000,
+         debounceDelay: 50, 
+         // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+         once: false, // whether animation should happen only once - while scrolling down
+         mirror: true, // whether elements should animate out while scrolling past them
+       });
+     </script>
 
 
 </body>
