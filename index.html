@@ -4,6 +4,7 @@
 <head>
     <title>Dana Blue</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/loader.css">
     <!-- Bootstrap  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -26,9 +27,14 @@
     </script>
     <!-- for animation  -->
     <link rel="stylesheet" href="./css/dist/aos.css">
+    <script src="jquery-2.1.4.js"></script>
 </head>
 
 <body>
+    <!-- loader -->
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+      </div>
 
     <div class="container-fluid">
         <!----Navbar-->
@@ -324,7 +330,7 @@
 
     <!-- for animation -->
     <script src="./css/dist/aos.js"></script>
-    
+
     <script>
         AOS.init({
 
@@ -332,7 +338,14 @@
 
         });
     </script>
+   <script>
+    let loaderWrapper = document.querySelector('.loader-wrapper');
 
+    window.addEventListener('load', function () {
+        // loaderWrapper.style.display = 'none';
+        loaderWrapper.parentElement.removeChild(loaderWrapper);
+    });
+</script>
 
 </body>
 
